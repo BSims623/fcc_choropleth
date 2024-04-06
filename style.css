@@ -1,0 +1,41 @@
+#title,
+#description {
+  color: white;
+}
+
+.caption {
+  fill: white;
+  font-size: .75rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: black;
+
+}
+
+#app {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-svg {
+  background: black;
+
+}
+
+.states {
+  fill: none;
+  stroke: white;
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: white;
+  padding: 0 15px;
+  border-radius: 5px;
+}
